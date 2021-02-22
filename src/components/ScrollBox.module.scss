@@ -1,0 +1,16 @@
+.scrollbox-xy {
+  overflow: scroll;
+  max-height: 250px;
+}
+
+.scrollbox-y {
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 250px;
+}
+
+.scrollbox-x {
+  overflow: scroll;
+  overflow-y: hidden;
+  max-height: 250px;
+}

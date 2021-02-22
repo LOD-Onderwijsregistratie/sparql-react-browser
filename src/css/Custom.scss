@@ -1,0 +1,66 @@
+// overwrite defaults here.
+$nodecolor: black;
+
+$font-stack: Helvetica, sans-serif;
+
+body {
+  background-color: #ebebeb !important;
+}
+
+text {
+  text-anchor: middle;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: #666;
+  font-size: 16px;
+}
+
+.nav-link {
+}
+
+.navbar-toggler {
+  border-bottom: none;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid ligh;
+  //font-weight: bold;
+}
+
+.navbar {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  box-shadow: 0 0 15px;
+}
+
+.dropdown-item.active {
+  background-color: white;
+  color: black;
+}
+
+.textarea {
+  min-width: 100%;
+
+  min-height: 300px;
+  background-color: red;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+}
+
+// import custom modules here
+
+@import "_Node";
+@import "_Link";
+@import "_Tooltip";
+@import "_Layout";
+@import "_Navigation";
+@import "_responsive";
+@import "_forcegraph";
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";

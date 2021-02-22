@@ -1,0 +1,19 @@
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+path.linkfaded {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+  opacity: 0.3;
+}
+
+path.connectedLink {
+  opacity: 1;
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}

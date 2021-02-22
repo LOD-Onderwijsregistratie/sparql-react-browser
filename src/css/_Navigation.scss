@@ -1,0 +1,40 @@
+#main-navigation{
+   .nav-link {
+  color: white;
+  font-size: 1.3rem;
+  }
+
+  .nav-link:hover {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 3px solid ligh;
+  //font-weight: bold;
+}
+
+.active{
+   // color: green;
+   // background-color: red;
+   border-bottom: 3px solid white;
+   font-weight: bold;
+  }
+
+}
+
+.nav {
+
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 3px solid ligh;
+  //font-weight: bold;
+  }
+  .active{
+   // color: green;
+   // background-color: red;
+   border-bottom: 3px solid white;
+   font-weight: bold;
+  }
+
+}
